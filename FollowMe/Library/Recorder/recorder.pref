@@ -36,7 +36,7 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 5
+  take: 2
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -44,9 +44,9 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: Gameplay
+    m_FileName: movie_<Take>
   outputFormat: 0
-  videoBitRateMode: 2
+  videoBitRateMode: 0
   captureAlpha: 0
   containerFormatSelected: 0
   encoderSelected: 0
